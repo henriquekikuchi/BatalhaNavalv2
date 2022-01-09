@@ -1,5 +1,7 @@
-package br.com.letscode.batalhanavalv2.domain;
+package br.com.letscode.batalhanavalv2.controller;
 
+import br.com.letscode.batalhanavalv2.domain.Board;
+import br.com.letscode.batalhanavalv2.domain.Player;
 import br.com.letscode.batalhanavalv2.view.GameInitView;
 
 import java.util.Locale;

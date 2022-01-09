@@ -1,8 +1,6 @@
 package br.com.letscode.batalhanavalv2;
 
-import br.com.letscode.batalhanavalv2.domain.Board;
-import br.com.letscode.batalhanavalv2.domain.Game;
-import br.com.letscode.batalhanavalv2.domain.Player;
+import br.com.letscode.batalhanavalv2.controller.Game;
 
 public class Main {
 
