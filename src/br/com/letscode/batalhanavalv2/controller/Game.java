@@ -4,9 +4,7 @@ import br.com.letscode.batalhanavalv2.domain.Board;
 import br.com.letscode.batalhanavalv2.domain.Player;
 import br.com.letscode.batalhanavalv2.view.GameInitView;
 
-import java.util.Locale;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 public class Game {
 
@@ -69,14 +67,14 @@ public class Game {
         System.out.println("[I] \t\t INICIAR JOGO \t\t");
         System.out.println("[Q] \t\t SAIR \t\t");
         System.out.println("Opção escolhida: ");
-        System.out.printf("~#: ");
+        System.out.print("~#: ");
         String opcao = new Scanner(System.in).next().toUpperCase();
         menuOptions(opcao);
     }
 
     public static void aguardarPressionarQualquerTecla(){
         System.out.printf("Pressione qualquer tecla para continuar!%n");
-        System.out.printf("#~: ");
+        System.out.print("#~: ");
         new Scanner(System.in).nextLine();
     }
 }
